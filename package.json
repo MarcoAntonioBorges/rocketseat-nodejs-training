@@ -1,0 +1,28 @@
+{
+  "name": "rocketseat-nodejs-training",
+  "version": "1.0.0",
+  "description": "Repositorio para fins educacionais, aprendendo sobre NodeJS via station da Rocketseat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcoAntonioBorges/rocketseat-nodejs-training.git"
+  },
+  "keywords": [],
+  "author": "Marco A.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcoAntonioBorges/rocketseat-nodejs-training/issues"
+  },
+  "homepage": "https://github.com/MarcoAntonioBorges/rocketseat-nodejs-training#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.8",
+    "mongoose-paginate": "^5.0.3",
+    "require-dir": "^1.2.0"
+  }
+}
